@@ -41,6 +41,9 @@ article {
   @apply max-w-full prose dark:prose-invert prose-img:mx-auto prose-img:my-auto;
   @apply prose-headings:font-semibold prose-p:font-serif;
   @apply prose-headings:text-black prose-headings:dark:text-white;
+  /* Scale down all headings within article content to sit below the page title size */
+  @apply prose-h1:text-xl prose-h2:text-lg prose-h3:text-base;
+  @apply prose-h4:text-base prose-h5:text-sm prose-h6:text-sm;
 }
 
 @layer utilities {
