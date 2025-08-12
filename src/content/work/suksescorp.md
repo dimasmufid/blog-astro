@@ -1,7 +1,7 @@
 ---
 company: "Sukses Corp International"
 role: "Machine Learning Engineer"
-dateStart: "01/10/2024"
+dateStart: "2024-10-01"
 dateEnd: "Current"
 ---
 

@@ -1,8 +1,8 @@
 ---
 company: "Entrefine"
 role: "Data Engineer"
-dateStart: "01/01/2023"
-dateEnd: "01/10/2024"
+dateStart: "2023-01-01"
+dateEnd: "2024-10-01"
 ---
 
 Transformed data processing for clients by pioneering the integration of Google BigQuery, resolving performance bottlenecks, and reducing dashboard loading times from 15 seconds to just 2 seconds.
