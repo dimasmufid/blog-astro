@@ -1,0 +1,67 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import { ABOUT, SOCIALS, SITE } from "@consts";
+import Link from "@components/Link.astro";
+---
+
+<PageLayout title={ABOUT.TITLE} description={ABOUT.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="animate font-semibold text-black dark:text-white">
+        About
+      </div>
+      <article class="animate space-y-6">
+        <section class="space-y-4">
+          <h5 class="font-semibold text-black dark:text-white text-lg">
+            My Career Journey
+          </h5>
+          <p>
+            I don't have any technical background when I started my career. In my journey of getting management degree, I meet statistics and interested on it. That is the tipping point for me to start my career in data field, starting as a Data Analyst in <Link href="https://entrefine.com/" external>entrefine</Link>, a consultant startup that help a small and medium enterprise to optimize data for their business growth.
+          </p>
+          <p>
+            Then there is a point where one of the client have a large amount of data that need to be process. In that point, I learn anything about data warehouse in <Link href="https://cloud.google.com/bigquery" external>BigQuery</Link> and also my first meet with <Link href="https://airflow.apache.org/" external>Airflow</Link> for building ELT data pipeline. So my data engineering learning journey is even I learn it accidentally. But apparently, it is become the field that I love the most to work with.
+          </p>
+          <p>
+            But unfortunately, the output of data engineering is data infrastructure. It is not something that will face directly into the end user. That is the point where then I start learning about web development. Big thanks to <Link href="https://www.theodinproject.com/" external>the odin project</Link> for providing free and comprehensive web development curriculum. That later I learn more about <Link href="https://nextjs.org/" external>nextjs</Link> and <Link href="https://fastapi.tiangolo.com/" external>fastapi</Link> that become my main weapon for building software system.
+          </p>
+        </section>
+
+        <section class="space-y-4">
+          <h5 class="font-semibold text-black dark:text-white text-lg">
+            Building Entrefine
+          </h5>
+          <p>
+            Now, the <strong>Next Big Thing</strong> for me is building <Link href="https://omnichannel.entrefine.com/" external>Entrefine Omnichannel</Link> ! It is a consultant startup that help a small and medium enterprise to optimize data for their business growth. I will share about it more for each project that I build inside Entrefine.
+          </p>
+        </section>
+      </article>
+      
+      <section class="animate space-y-4">
+        <h5 class="font-semibold text-black dark:text-white text-lg">
+          Let's Connect
+        </h5>
+        <p>
+          If you want to get in touch with me about something or just to say hi,
+          reach out on social media or send me an email.
+        </p>
+        <ul class="flex flex-wrap gap-2">
+          {SOCIALS.map(SOCIAL => (
+            <li class="flex gap-x-2 text-nowrap">
+              <Link href={SOCIAL.HREF} external aria-label={`${SITE.NAME} on ${SOCIAL.NAME}`}>
+                {SOCIAL.NAME}
+              </Link>
+              {"/"}
+            </li>
+          ))}
+          <li class="line-clamp-1">
+            <Link href={`mailto:${SITE.EMAIL}`} aria-label={`Email ${SITE.NAME}`}>
+              email
+            </Link>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </Container>
+</PageLayout>
+

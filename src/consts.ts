@@ -24,6 +24,12 @@ export const PROJECTS: Metadata = {
     "A collection of my projects, with links to repositories and demos.",
 };
 
+export const ABOUT: Metadata = {
+  TITLE: "About",
+  DESCRIPTION:
+    "Learn more about Dimas Mufid, a data engineer passionate about building AI-powered solutions.",
+};
+
 export const SOCIALS: Socials = [
   {
     NAME: "twitter-x",

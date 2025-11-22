@@ -3,6 +3,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import rehypeMermaid from "rehype-mermaid";
+import rehypeMermaidPrep from "./src/lib/rehype-mermaid-prep.js";
 
 const mermaidPlugin = [
   rehypeMermaid,
@@ -18,11 +19,11 @@ const mermaidPlugin = [
 export default defineConfig({
   site: "https://astro-nano-demo.vercel.app",
   markdown: {
-    rehypePlugins: [mermaidPlugin],
+    rehypePlugins: [rehypeMermaidPrep, mermaidPlugin],
   },
   integrations: [
     mdx({
-      rehypePlugins: [mermaidPlugin],
+      rehypePlugins: [rehypeMermaidPrep, mermaidPlugin],
     }),
     sitemap(),
     tailwind(),
