@@ -209,9 +209,9 @@ Mark will function as an intelligent conversational agent. It will understand us
 ### Julius AI
 
 The first thing I need to try is the **code generator**. To assess whether it is feasible to do or not. I strongly believe it is feasible because there is already real software which could do that. For instance, I inspire a lot from [julius.ai](https://julius.ai/). It is an AI to help data analyst working on data analysis and data manipulation.
-![](@/assets//blog-assets/Pasted%20image%2020250521061007.png)
+![](@/assets/blog-assets/Pasted%20image%2020250521061007.png)
 This is how they could generate python code, run it, and return the result also in the UI.
-![](@/assets//blog-assets/Pasted%20image%2020250521061221.png)
+![](@/assets/blog-assets/Pasted%20image%2020250521061221.png)
 So it must be feasible. But I need to try it first, to define how challenging it is and how much cost is it, whether it is cost for development and also cost for running it.
 
 ### Sandbox
@@ -287,9 +287,9 @@ After I doing my research, apparently the term for separated and isolated comput
 ```
 
 Apparently it is challenging to do it, and very sensitives in term of security. After wondering what is the best, I remember about the [Suna](https://github.com/kortix-ai/suna) project that I previously learned. They surely also use sandbox for the agent to do it's work. Apparently, they use third party service to run the sandbox, called [Daytona](https://www.daytona.io/) which they called as _"Secure agent execution environment"_.
-![](@/assets//blog-assets/Pasted%20image%2020250521062308.png)
+![](@/assets/blog-assets/Pasted%20image%2020250521062308.png)
 Moreover, for the isolated sandbox environment that we are going to build, we can customized the image.
-![](@/assets//blog-assets/Pasted%20image%2020250521062521.png)
+![](@/assets/blog-assets/Pasted%20image%2020250521062521.png)
 
 ## Closing
 

@@ -46,6 +46,13 @@ article {
   @apply prose-h4:text-base prose-h5:text-sm prose-h6:text-sm;
 }
 
+article svg[id^="mermaid-"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
 @layer utilities {
   article a {
     @apply font-sans text-current underline underline-offset-2;

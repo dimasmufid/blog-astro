@@ -11,14 +11,14 @@ tags:
 ## Background
 
 For context, I already know about [manus ai](https://manus.im/), an AI agent that feel like an AGI, which can help human to do any task it needs. It become viral when it is first released.
-![Manus](@/assets//blog-assets/Pasted%20image%2020250519082021.png)
+![Manus](@/assets/blog-assets/Pasted%20image%2020250519082021.png)
 
 Then for about a week ago, I saw another AI agent called [suna](https://www.suna.so/), which I believe is the same as manus, but it is open source.
-![Suna](@/assets//blog-assets/Pasted%20image%2020250519082449.png)
+![Suna](@/assets/blog-assets/Pasted%20image%2020250519082449.png)
 
 So I really curious on how they work, so I open the source code and try to understand how they work. Fortunately, they use _nextjs_ and _fastapi_ as their tech stack, which is something that I am familiar with.
 
-![Suna Tech Stack](@/assets//blog-assets/Pasted%20image%2020250519082426.png)
+![Suna Tech Stack](@/assets/blog-assets/Pasted%20image%2020250519082426.png)
 
 After directly trying the apps, I feel like I have another idea for mark. I can mimic on how agentic AI works on suna, but specialized for business analyst. Because I strongly believe, as my experience as a data scientist, the question that the user ask is not always can answer on one shot. But sometimes, there is a loop of question and answer by myself, until it is ready to answer the question to the user. For instance, the question could be like: _"My A product declining for the last 3 months, what is the reason and how to resolve it?"_. Answer those question, can not be done on one shot. Instead, it need to make a plan, reading and evaluating the data we receive, make a diagnosis, and make an assessment whether the answer is ready to answer the question to the user. Therefore, it need agentic AI to do that, which could manage the loop of question and answer. Not just a simple chatbot.
 
@@ -75,7 +75,7 @@ After I finally host the app, I try to understand the code.
 ```
 
 I remember that delvin have [deepwiki](https://docs.devin.ai/work-with-devin/deepwiki). Which is a tool that can help you to understand the codebase of your project. Which help me a lot to understand the [codebase of suna](https://deepwiki.com/kortix-ai/suna). From that point, I learn how the agentic AI works on suna, from the client interact with the frontend, to the backend, and how they manage thread of the agentic AI. It is interesting but apparently very complex. I try to push myself to finished reading it, but probably only understand 30% of it. But I can get the idea how the agentic AI works on suna.
-![Suna on Deep Wiki](@/assets//blog-assets/Pasted%20image%2020250519082556.png)
+![Suna on Deep Wiki](@/assets/blog-assets/Pasted%20image%2020250519082556.png)
 
 ### Discussion with the team
 

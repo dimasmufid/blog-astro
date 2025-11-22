@@ -1,6 +1,6 @@
 ---
-title: "Why I’m Showing My Work: Starting My Creator Journey in AI and Data"
-description: "Why I’m Showing My Work: Starting My Creator Journey in AI and Data"
+title: "Why I'm Showing My Work: Starting My Creator Journey in AI and Data"
+description: "Inspired by Austin Kleon's 'Show Your Work!', I'm starting to document my journey building an AI startup, sharing both successes and failures as I learn and grow in the AI and data space."
 date: "2025-06-15"
 ---
 
