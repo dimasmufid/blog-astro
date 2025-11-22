@@ -4,7 +4,6 @@ export const SITE: Site = {
   NAME: "Dimas Mufid",
   EMAIL: "dimasmoveit@gmail.com",
   NUM_POSTS_ON_HOMEPAGE: 3,
-  NUM_WORKS_ON_HOMEPAGE: 2,
   NUM_PROJECTS_ON_HOMEPAGE: 1,
 };
 
@@ -19,11 +18,6 @@ export const BLOG: Metadata = {
   DESCRIPTION: "A collection of articles on topics I am passionate about.",
 };
 
-export const WORK: Metadata = {
-  TITLE: "Work",
-  DESCRIPTION: "Where I have worked and what I have done.",
-};
-
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
   DESCRIPTION:
@@ -33,7 +27,7 @@ export const PROJECTS: Metadata = {
 export const SOCIALS: Socials = [
   {
     NAME: "twitter-x",
-    HREF: "https://twitter.com/dimasmufid",
+    HREF: "https://x.com/dimasmufid",
   },
   {
     NAME: "github",
