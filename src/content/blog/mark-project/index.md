@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Why I Started Mark
 
 If you’ve ever been the “data person” at a growing company, you know the feeling: every department has questions, and every question feels urgent.

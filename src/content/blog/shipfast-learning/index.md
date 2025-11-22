@@ -9,8 +9,6 @@ tags:
 description: The lesson I learned from building Mark AI and StudioFotoAI
 ---
 
-## Table of contents
-
 ## **Mark AI Architecture (2 months, 0 users):**
 
 ```mermaid

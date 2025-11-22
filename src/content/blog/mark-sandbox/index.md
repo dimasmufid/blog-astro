@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 This is my first day on building fastapi backend service for mark, after initially build the directory yesterday. As a data engineer and data scientist, I already have experience in python, but this is my very first time build a backend apps using fastai. Therefore it is challenging. Fortunately, there is AI which can accompany and guide me to build it.

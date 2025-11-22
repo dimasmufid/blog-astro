@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 First of all, I am very grateful that I can have this much time to work on Mark. I have been working on this project for 1 week, literally every day, and I have learned a lot.

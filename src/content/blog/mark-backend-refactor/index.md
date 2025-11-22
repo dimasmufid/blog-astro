@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 ### Issue in Current Project Structure

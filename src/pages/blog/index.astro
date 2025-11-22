@@ -9,20 +9,37 @@ const data = (await getCollection("blog"))
   .filter(post => !post.data.draft)
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
   
-type Acc = {
-  [year: string]: CollectionEntry<"blog">[];
+type MonthPosts = {
+  [month: string]: CollectionEntry<"blog">[];
 }
 
-const posts = data.reduce((acc: Acc, post) => {
+type YearPosts = {
+  [year: string]: MonthPosts;
+}
+
+const posts = data.reduce((acc: YearPosts, post) => {
     const year = post.data.date.getFullYear().toString();
+    const month = post.data.date.getMonth().toString();
+    
     if (!acc[year]) {
-      acc[year] = [];
+      acc[year] = {};
     }
-    acc[year].push(post);
+    if (!acc[year][month]) {
+      acc[year][month] = [];
+    }
+    acc[year][month].push(post);
     return acc;
   }, {});
 
-const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a)); 
+const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a));
+
+const getMonthName = (monthIndex: string): string => {
+  const monthNames = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+  return monthNames[parseInt(monthIndex)];
+};
 ---
 
 <PageLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>
@@ -37,16 +54,25 @@ const years = Object.keys(posts).sort((a, b) => parseInt(b) - parseInt(a));
             <div class="font-semibold text-black dark:text-white">
               {year}
             </div>
-            <div>
-              <ul class="flex flex-col gap-4">
-                {
-                  posts[year].map((post) => (
-                    <li>
-                      <ArrowCard entry={post}/>
-                    </li>
-                  ))
-                }
-              </ul>
+            <div class="space-y-4">
+              {Object.keys(posts[year])
+                .sort((a, b) => parseInt(b) - parseInt(a))
+                .map(month => (
+                  <div class="space-y-3">
+                    <div class="font-medium text-black dark:text-white text-sm">
+                      {getMonthName(month)}
+                    </div>
+                    <ul class="flex flex-col gap-4">
+                      {
+                        posts[year][month].map((post) => (
+                          <li>
+                            <ArrowCard entry={post}/>
+                          </li>
+                        ))
+                      }
+                    </ul>
+                  </div>
+                ))}
             </div>
           </section>
         ))}

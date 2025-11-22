@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 For context, I already know about [manus ai](https://manus.im/), an AI agent that feel like an AGI, which can help human to do any task it needs. It become viral when it is first released.

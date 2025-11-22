@@ -6,7 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
 
 > At first, this is what product I want to build. With the reason that I can get help from AI to build the product, it leads me to over complicate the product and forget about the most priority and the concept of MVP (Minimum Viable Product).
 

@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 When I started building Mark's AI backend, I was doing what most developers do - reading the official documentation from OpenAI and Anthropic, copying their examples, and building my own wrapper functions around their APIs. It worked, but as Mark grew more complex, I started hitting walls.

@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 At first, I don't feel like urgent to set up deployment soon. Because there still many feature that is still under development. But then I believe, the quick win is important for my own self to get the progress. In addition, I believe progressive CI CD is important. So if there anything that become obstacle on deployment, I could know it soon and incremental. It is not become a big burden later.

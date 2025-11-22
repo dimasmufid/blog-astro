@@ -6,8 +6,6 @@ tags:
   - mark
 ---
 
-## Table of contents
-
 ## Background
 
 For context, **Mark** is a business analyst AI that helping business user to understand their business condition by using natural language, helping them diagnose problem on their business, and giving ideas on how to solve them. As a business analyst, one of the strongest point is how they tell the story about the data and visualize it.
