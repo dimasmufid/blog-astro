@@ -17,7 +17,7 @@ const mermaidPlugin = [
 ];
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://dimasmufid.com",
   markdown: {
     rehypePlugins: [rehypeMermaidPrep, mermaidPlugin],
   },
