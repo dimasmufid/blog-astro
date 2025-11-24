@@ -1,64 +1,37 @@
-![Astro Nano](_astro_nano.png)
+# Dimas Mufid — Blog
 
-Astro Nano is a static, minimalist, lightweight, lightning fast portfolio and blog theme.
+This repo powers my personal blog and build journal. I'm a data engineer who got tired of watching business teams wait on dashboards, so I'm building **Mark**, an AI business analyst that turns messy data into clear answers. I write here to share the process, the detours, and the lessons learned.
 
-Built with Astro, Tailwind and Typescript, an no frameworks.
+## What you'll find
+- Build-in-public logs for Mark: from the [first pitch](/blog/mark-project) to the [agentic experiments](/blog/mark-agentic-plan) and [tech stack shifts](/blog/mark-tech-stack-change) as I figure out how to ship a reliable AI analyst.
+- Notes from shipping: weekly evaluations, learning logs, and the messy middle of deciding what to cut or double down on.
+- Data/AI engineering practice: BigQuery, FastAPI + Next.js, and patterns for turning raw data into narratives and visuals.
+- Occasional stories from consulting at Entrefine and why I still prefer building scrappy, end-to-end systems.
 
-It was designed as an even more minimal theme than my popular theme [Astro Sphere](https://github.com/markhorn-dev/astro-sphere)
+## Tech stack
+- [Astro 5](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/) + [TypeScript](https://www.typescriptlang.org/)
+- Markdown/MDX content living in `src/content`
+- RSS feed and sitemap generated out of the box
+- Dark/light theme, minimal layout, no heavy JS frameworks
 
-## 🚀 Deploy your own
+## Run it locally
+```bash
+pnpm install
+pnpm run dev       # start the dev server at http://localhost:4321
+```
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-nano)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-nano)
+Other scripts:
+- `pnpm run build` — production build
+- `pnpm run preview` — preview the built site
+- `pnpm run lint` — lint the codebase
 
-## 📋 Features
+## Content structure
+- Blog posts: `src/content/blog`
+- Projects: `src/content/projects`
+- Pages & layouts: `src/pages` and `src/layouts`
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-
-## 💯 Lighthouse score
-![Astro Nano Lighthouse Score](_lighthouse.png)
-
-## 🕊️ Lightweight
-No frameworks or added bulk
-
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
-
-## 📄 Configuration
-
-The blog posts on the demo serve as the documentation and configuration.
-
-## 💻 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts local dev server on local network         |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Preview build on local network                   |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
-
-## 🏛️ License
-
-MIT
+## Say hello
+- X/Twitter: [@dimasmufid](https://x.com/dimasmufid)
+- GitHub: [dimasmufid](https://github.com/dimasmufid)
+- LinkedIn: [dimasmufid](https://www.linkedin.com/in/dimasmufid)
+- Email: dimasmoveit@gmail.com
