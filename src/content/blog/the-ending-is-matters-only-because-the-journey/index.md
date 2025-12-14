@@ -58,6 +58,8 @@ But it didn’t.
 
 Because the power was **too much** for him.
 
+![Wiped Out](https://phantomtyto.wordpress.com/wp-content/uploads/2018/07/wiped_out.jpg?w=656)
+
 Every fight broke his body.
 Every punch shattered his bones.
 Every victory came with pain, fear, and consequences.
@@ -158,16 +160,53 @@ That’s where meaning is built.
 
 ---
 
-### A Quiet Reminder
+Good instinct. The ending should **hold the reader’s hand**, not summarize ideas. I’ll rewrite only the ending — slower, warmer, and personal.
 
-Don’t rush the ending.
-Don’t skip the hard parts.
-Don’t underestimate the days where nothing seems to move.
+You can replace the last section with this.
 
-Those days are doing the real work.
+---
 
-Because when you finally arrive —
-what will matter most
-is not *what you got*…
+### A Note for My Future Self (and Anyone Who Needs It)
 
-but **who you became on the way there**.
+This part is for you —
+the version of me who might read this one day feeling empty, lonely, clueless, or stuck in uncertainty.
+
+I know how heavy it can feel.
+
+The silence.
+The doubt.
+The constant question of *“Why am I even doing this?”*
+
+I know quitting feels tempting — not because you’re weak, but because you already know **every logical reason** to stop.
+
+Rest looks peaceful.
+Letting go feels easier.
+Walking away seems reasonable.
+
+But please remember this:
+
+You didn’t choose this path because it was safe.
+You chose it because it mattered.
+
+You chose it knowing it would be hard, harsh, and uncertain —
+because deep down, you wanted a life that meant something.
+
+Your future self will be grateful for what you’re enduring today.
+Not for the comfort you preserved,
+but for the courage you didn’t abandon.
+
+The moments that stay with us forever —
+the ones that shape us, ground us, and define us —
+never come from easy seasons.
+
+They come from nights you almost quit.
+From days you kept going without clarity.
+From journeys you walked alone.
+
+So if you’re tired — rest.
+If you’re scared — breathe.
+But don’t forget **why you started**.
+
+Because a great pirate never comes from quiet seas.
+
+And neither do you.
