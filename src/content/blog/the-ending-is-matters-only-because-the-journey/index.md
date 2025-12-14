@@ -110,35 +110,6 @@ It felt **earned**.
 
 ---
 
-### The Same Truth in *The Alchemist*
-That’s why *The Alchemist* came back to me.
-![The Alchemist](https://ebooks.gramedia.com/ebook-covers/29408/big_covers/ID_HCO2015MTH12TALC.jpeg)
-
-Santiago’s treasure was never really about gold.
-
-In the end, it was right where he started.
-
-But imagine if he found it immediately.
-
-No desert.
-No loss.
-No fear.
-No sacrifice.
-
-It would’ve meant nothing.
-
-The treasure mattered **because**:
-
-* he crossed continents,
-* he lost what he loved,
-* he doubted himself,
-* he suffered for the journey.
-
-The journey transformed him.
-The treasure only confirmed it.
-
----
-
 ### Why This Matters to Me — Right Now
 
 This is the reminder I needed.
