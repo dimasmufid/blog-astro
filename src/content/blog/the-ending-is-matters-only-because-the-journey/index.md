@@ -131,12 +131,6 @@ That’s where meaning is built.
 
 ---
 
-Good instinct. The ending should **hold the reader’s hand**, not summarize ideas. I’ll rewrite only the ending — slower, warmer, and personal.
-
-You can replace the last section with this.
-
----
-
 ### A Note for My Future Self (and Anyone Who Needs It)
 
 This part is for you —
